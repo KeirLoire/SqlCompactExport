@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlCompactExport", "SqlCompactExport\SqlCompactExport.csproj", "{B1320367-4AAA-4EF2-A248-AFD2124574EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1320367-4AAA-4EF2-A248-AFD2124574EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1320367-4AAA-4EF2-A248-AFD2124574EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1320367-4AAA-4EF2-A248-AFD2124574EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1320367-4AAA-4EF2-A248-AFD2124574EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99E1DF96-1DAC-4372-BB29-4F73F21C0A78}
+	EndGlobalSection
+EndGlobal
