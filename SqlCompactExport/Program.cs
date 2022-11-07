@@ -10,8 +10,8 @@ namespace SqlCompactExport
         {
             try
             {
-                Parser.Default.ParseArguments<Options, ExportCsvOptions>(args)
-                    .WithParsed<ExportCsvOptions>(opt => new ExportCsv(opt));
+                Parser.Default.ParseArguments<ExportCsvOptions>(args)
+                    .WithParsed(opt => new ExportCsv(opt));
             }
             catch(Exception e)
             {
