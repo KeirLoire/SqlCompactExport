@@ -1,6 +1,11 @@
-Build:Debug:
+Build:
   stage: build
   script:
+    - nuget restore
     - msbuild SqlCompactExport.sln /p:Configuration=Release
+  artifacts:
+    name: Binary
+    paths:
+      - $CI_PROJECT_DIR/SqlCompactExport/bin/Release/*.exe
   tags:
     - build
