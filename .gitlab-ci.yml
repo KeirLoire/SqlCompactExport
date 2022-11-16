@@ -1,0 +1,16 @@
+stages:
+  - build
+
+workflow:
+  rules:
+    - if: $CI_COMMIT_MESSAGE =~ /(?i)((^draft:)|(^wip:))/
+      when: never
+    - if: $CI_MERGE_REQUEST_ID
+      when: always
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: always
+    - if: $CI_PIPELINE_SOURCE == "trigger"
+      when: always
+
+include:
+  - /.gitlab/ci/build.yml

@@ -1,0 +1,6 @@
+Build:Debug:
+  stage: build
+  script:
+    - msbuild SqlCompactExport.sln /p:Configuration=Release
+  tags:
+    - build
