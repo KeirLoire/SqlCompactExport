@@ -5,12 +5,18 @@ workflow:
   rules:
     - if: $CI_COMMIT_MESSAGE =~ /(?i)((^draft:)|(^wip:))/
       when: never
+    - changes:
+      - "*.md"
+      - "**/*.md"
+      when: never
     - if: $CI_MERGE_REQUEST_ID
       when: always
     - if: $CI_PIPELINE_SOURCE == "schedule"
       when: always
     - if: $CI_PIPELINE_SOURCE == "trigger"
       when: always
+    - if: $CI_PIPELINE_SOURCE == "push" && ($CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "master")
+      when: always
 
 include:
-  - /.gitlab/ci/build.yml
+  - ".gitlab/ci/build.yml"
