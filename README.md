@@ -22,4 +22,4 @@ This binary requires prerequisites in order to run.
 
 ## Note
 
-This is a mirror copy of https://github.com/KeirLoire/SqlCompactExport which is also mine.
+This is a mirror copy of https://github.com/KeirLoire/sql-compact-export which is also mine.
