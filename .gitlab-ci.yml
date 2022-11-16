@@ -1,4 +1,5 @@
 stages:
+  - test
   - build
 
 workflow:
@@ -19,4 +20,5 @@ workflow:
       when: always
 
 include:
+  - ".gitlab/ci/test.yml"
   - ".gitlab/ci/build.yml"

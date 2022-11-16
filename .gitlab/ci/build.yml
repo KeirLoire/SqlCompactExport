@@ -1,5 +1,7 @@
 Build:
   stage: build
+  rules:
+    - when: on_success
   script:
     - nuget restore
     - msbuild SqlCompactExport.sln /p:Configuration=Release
@@ -9,3 +11,6 @@ Build:
       - $CI_PROJECT_DIR/SqlCompactExport/bin/Release/*.exe
   tags:
     - build
+  needs:
+    - job: Test
+      artifacts: false

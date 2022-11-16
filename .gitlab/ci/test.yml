@@ -1,0 +1,11 @@
+Test:
+  stage: test
+  script:
+    - nuget restore
+    - dotnet test --logger junit
+  artifacts:
+    when: always
+    reports:
+      junit: $CI_PROJECT_DIR/SqlCompactExport.Test/TestResults/TestResults.xml
+  tags:
+    - test
