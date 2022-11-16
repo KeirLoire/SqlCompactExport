@@ -6,7 +6,7 @@
     using System.IO;
     using System.Text;
 
-    internal class ExportCsvOptions : Options
+    public class ExportCsvOptions : Options
     {
         [Option('o', "outputfile", Default = "output.csv", HelpText = "The file path and name for the CSV output file.")]
         public string OutputFile { get; set; }
@@ -15,7 +15,7 @@
         public string Separator { get; set; }
     }
 
-    internal class ExportCsv
+    public class ExportCsv
     {
         public ExportCsv(ExportCsvOptions opt)
         {

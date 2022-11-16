@@ -2,7 +2,7 @@
 
 namespace SqlCompactExport
 {
-    internal class Options
+    public class Options
     {
         [Option('d', "databasefile", Required = true, HelpText = "The file path to the SQL Compact database file.")]
         public string DatabaseFile { get; set; }

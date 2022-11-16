@@ -1,0 +1,77 @@
+1,1,1,Chai,Dharamsala Tea,10 boxes x 20 bags,18,39,0,10,False
+2,1,1,Chang,Tibetan Barley Beer,24 - 12 oz bottles,19,17,40,25,False
+3,1,2,Aniseed Syrup,Licorice Syrup,12 - 550 ml bottles,10,13,70,25,False
+4,2,2,Chef Anton's Cajun Seasoning,Chef Anton's Cajun Seasoning,48 - 6 oz jars,22,53,0,0,False
+5,2,2,Chef Anton's Gumbo Mix,Chef Anton's Gumbo Mix,36 boxes,21.35,0,0,0,True
+6,3,2,Grandma's Boysenberry Spread,Grandma's Boysenberry Spread,12 - 8 oz jars,25,120,0,25,False
+7,3,7,Uncle Bob's Organic Dried Pears,Uncle Bob's Organic Dried Pears,12 - 1 lb pkgs.,30,15,0,10,False
+8,3,2,Northwoods Cranberry Sauce,Northwoods Cranberry Sauce,12 - 12 oz jars,40,6,0,0,False
+9,4,6,Mishi Kobe Niku,Mishi Kobe Beef,18 - 500 g pkgs.,97,29,0,0,True
+10,4,8,Ikura,Fish Roe,12 - 200 ml jars,31,31,0,0,False
+11,5,4,Queso Cabrales,Cabrales Cheese,1 kg pkg.,21,22,30,30,False
+12,5,4,Queso Manchego La Pastora,Manchego La Pastora Cheese,10 - 500 g pkgs.,38,86,0,0,False
+13,6,8,Konbu,Kelp Seaweed,2 kg box,6,24,0,5,False
+14,6,7,Tofu,Bean Curd,40 - 100 g pkgs.,23.25,35,0,0,False
+15,6,2,Genen Shouyu,Lite Sodium Soy Sauce,24 - 250 ml bottles,15.5,39,0,5,False
+16,7,3,Pavlova,Pavlova Meringue Dessert,32 - 500 g boxes,17.45,29,0,10,False
+17,7,6,Alice Mutton,Alice Springs Lamb,20 - 1 kg tins,39,0,0,0,True
+18,7,8,Carnarvon Tigers,Carnarvon Tiger Prawns,16 kg pkg.,62.5,42,0,0,False
+19,8,3,Teatime Chocolate Biscuits,Teatime Chocolate Biscuits,10 boxes x 12 pieces,9.2,25,0,5,False
+20,8,3,Sir Rodney's Marmalade,Sir Rodney's Marmalade,30 gift boxes,81,40,0,0,False
+21,8,3,Sir Rodney's Scones,Sir Rodney's Scones,24 pkgs. x 4 pieces,10,3,40,5,False
+22,9,5,Gustaf's Knäckebröd,Gustaf's Rye Crisp Bread,24 - 500 g pkgs.,21,104,0,25,False
+23,9,5,Tunnbröd,Thin Bread,12 - 250 g pkgs.,9,61,0,25,False
+24,10,1,Guaraná Fantástica,Guaraná Fantástica Soft Drink,12 - 355 ml cans,4.5,20,0,0,True
+25,11,3,NuNuCa Nuß-Nougat-Creme,NuNuCa Chocolate-Nut Spread,20 - 450 g glasses,14,76,0,30,False
+26,11,3,Gumbär Gummibärchen,Gumbär Gummy Bears,100 - 250 g bags,31.23,15,0,0,False
+27,11,3,Schoggi Schokolade,Schoggi Chocolate,100 - 100 g pieces,43.9,49,0,30,False
+28,12,7,Rössle Sauerkraut,Rössle Sauerkraut,25 - 825 g cans,45.6,26,0,0,True
+29,12,6,Thüringer Rostbratwurst,Thüringer Sausage,50 bags x 30 sausgs.,123.79,0,0,0,True
+30,13,8,Nord-Ost Matjeshering,Nord-Ost White Herring,10 - 200 g glasses,25.89,10,0,15,False
+31,14,4,Gorgonzola Telino,Gorgonzola Telino,12 - 100 g pkgs,12.5,0,70,20,False
+32,14,4,Mascarpone Fabioli,Mascarpone Fabioli,24 - 200 g pkgs.,32,9,40,25,False
+33,15,4,Geitost,Goat Cheese,500 g,2.5,112,0,20,False
+34,16,1,Sasquatch Ale,Sasquatch Ale,24 - 12 oz bottles,14,111,0,15,False
+35,16,1,Steeleye Stout,Steeleye Stout,24 - 12 oz bottles,18,20,0,15,False
+36,17,8,Inlagd Sill,Pickled Herring,24 - 250 g  jars,19,112,0,20,False
+37,17,8,Gravad lax,Gravad Lox,12 - 500 g pkgs.,26,11,50,25,False
+38,18,1,Côte de Blaye,Côte de Blaye (Red Bordeaux wine),12 - 75 cl bottles,263.5,17,0,15,False
+39,18,1,Chartreuse verte,Green Chartreuse (Liqueur),750 cc per bottle,18,69,0,5,False
+40,19,8,Boston Crab Meat,Boston Crab Meat,24 - 4 oz tins,18.4,123,0,30,False
+41,19,8,Jack's New England Clam Chowder,Jack's New England Clam Chowder,12 - 12 oz cans,9.65,85,0,10,False
+42,20,5,Singaporean Hokkien Fried Mee,Singapore Noodles,32 - 1 kg pkgs.,14,26,0,0,True
+43,20,1,Ipoh Coffee,Malaysian Coffee,16 - 500 g tins,46,17,10,25,False
+44,20,2,Gula Malacca,Malacca Dark Brown Sugar,20 - 2 kg bags,19.45,27,0,15,False
+45,21,8,Røgede sild,Smoked Herring,1k pkg.,9.5,5,70,15,False
+46,21,8,Spegesild,Salt Herring,4 - 450 g glasses,12,95,0,0,False
+47,22,3,Zaanse koeken,Zaanse Cookies,10 - 4 oz boxes,9.5,36,0,0,False
+48,22,3,Chocolade,Dutch Chocolate,10 pkgs.,12.75,15,70,25,False
+49,23,3,Maxilaku,Licorice,24 - 50 g pkgs.,20,10,60,15,False
+50,23,3,Valkoinen suklaa,White Chocolate,12 - 100 g bars,16.25,65,0,30,False
+51,24,7,Manjimup Dried Apples,Manjimup Dried Apples,50 - 300 g pkgs.,53,20,0,10,False
+52,24,5,Filo Mix,Mix for Greek Filo Dough,16 - 2 kg boxes,7,38,0,25,False
+53,24,6,Perth Pasties,Perth Meat Pies,48 pieces,32.8,0,0,0,True
+54,25,6,Tourtière,Pork Pie,16 pies,7.45,21,0,10,False
+55,25,6,Pâté chinois,Shepard's Pie,24 boxes x 2 pies,24,115,0,20,False
+56,26,5,Gnocchi di nonna Alice,Gramma Alice's Dumplings,24 - 250 g pkgs.,38,21,10,30,False
+57,26,5,Ravioli Angelo,Angelo Ravioli,24 - 250 g pkgs.,19.5,36,0,20,False
+58,27,8,Escargots de Bourgogne,Escargots from Burgundy,24 pieces,13.25,62,0,20,False
+59,28,4,Raclette Courdavault,Courdavault Raclette Cheese,5 kg pkg.,55,79,0,0,False
+60,28,4,Camembert Pierrot,Pierrot Camembert,15 - 300 g rounds,34,19,0,0,False
+61,29,2,Sirop d'érable,Maple Syrup,24 - 500 ml bottles,28.5,113,0,25,False
+62,29,3,Tarte au sucre,Sugar Pie,48 pies,49.3,17,0,0,False
+63,7,2,Vegie-spread,Vegetable Sandwich Spread,15 - 625 g jars,43.9,24,0,5,False
+64,12,5,Wimmers gute Semmelknödel,Wimmer's Delicious Bread Dumplings,20 bags x 4 pieces,33.25,22,80,30,False
+65,2,2,Louisiana Fiery Hot Pepper Sauce,Louisiana Fiery Hot Pepper Sauce,32 - 8 oz bottles,21.05,76,0,0,False
+66,2,2,Louisiana Hot Spiced Okra,Louisiana Hot Spiced Okra,24 - 8 oz jars,17,4,100,20,False
+67,16,1,Laughing Lumberjack Lager,Laughing Lumberjack Lager,24 - 12 oz bottles,14,52,0,10,False
+68,8,3,Scottish Longbreads,Scottish Longbreads,10 boxes x 8 pieces,12.5,6,10,15,False
+69,15,4,Gudbrandsdalsost,Gudbrandsdals Cheese,10 kg pkg.,36,26,0,15,False
+70,7,1,Outback Lager,Outback Lager,24 - 355 ml bottles,15,15,10,30,False
+71,15,4,Fløtemysost,Fløtemys Cream Cheese,10 - 500 g pkgs.,21.5,26,0,0,False
+72,14,4,Mozzarella di Giovanni,Giovanni's Mozzarella,24 - 200 g pkgs.,34.8,14,0,0,False
+73,17,8,Röd Kaviar,Red Caviar,24 - 150 g jars,15,101,0,5,False
+74,4,7,Longlife Tofu,Longlife Bean Curd,5 kg pkg.,10,4,20,5,False
+75,12,1,Rhönbräu Klosterbier,Rhönbräu Beer,24 - 0.5 l bottles,7.75,125,0,25,False
+76,23,1,Lakkalikööri,Cloudberry Liqueur,500 ml,18,57,0,20,False
+77,12,2,Original Frankfurter grüne Soße,Original Frankfurter Green Sauce,12 boxes,13,32,0,15,False

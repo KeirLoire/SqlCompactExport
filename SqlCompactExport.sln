@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlCompactExport", "SqlCompactExport\SqlCompactExport.csproj", "{B1320367-4AAA-4EF2-A248-AFD2124574EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlCompactExport.Test", "SqlCompactExport.Test\SqlCompactExport.Test.csproj", "{999B207A-E623-4050-81CA-CDBB8BA1CA36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B1320367-4AAA-4EF2-A248-AFD2124574EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1320367-4AAA-4EF2-A248-AFD2124574EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1320367-4AAA-4EF2-A248-AFD2124574EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999B207A-E623-4050-81CA-CDBB8BA1CA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999B207A-E623-4050-81CA-CDBB8BA1CA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999B207A-E623-4050-81CA-CDBB8BA1CA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999B207A-E623-4050-81CA-CDBB8BA1CA36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
