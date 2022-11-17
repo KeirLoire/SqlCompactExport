@@ -1,4 +1,4 @@
-name: CI
+name: CI/CD
 
 on:
   push:
@@ -22,8 +22,8 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: binary
-          path: /SqlCompactExport.Test/TestResults/TestResults.xml
+          name: Test Result
+          path: SqlCompactExport.Test/TestResults/TestResults.xml
 
   build:
     name: Build
@@ -41,5 +41,5 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: binary
-          path: /SqlCompactExport/bin/Release/*.exe
+          name: Binary
+          path: SqlCompactExport/bin/Release/*.exe
