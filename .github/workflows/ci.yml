@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test:
+    name: Test
+    runs-on: [self-hosted, dotnet, Windows, X64]
+    steps:
+      - name: Restore NuGet packages
+        run: nuget restore
+      
+      - name: Run tests
+        run: dotnet test --logger junit
+      
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: binary
+          path: /SqlCompactExport.Test/TestResults/TestResults.xml
+
+  build:
+    name: Build
+    runs-on: [self-hosted, dotnet, Windows, X64]
+    needs: [test]
+    steps:
+      - name: Restore NuGet packages
+        run: nuget restore
+
+      - name: Build binary
+        run: msbuild SqlCompactExport.sln /p:Configuration=Release
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: binary
+          path: /SqlCompactExport/bin/Release/*.exe
